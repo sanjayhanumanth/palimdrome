@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width: 400px;
+    margin: 100px auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+}
+h1{
+    color: #333;
+}
+input[type="text"]
+{
+    width: 95%;
+    padding: 11px;
+    margin-top: 10px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    font-size: 17px;
+}
+button{
+    border:none;
+    background-color: #007bff;
+    margin-top: 15px;
+    padding:10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 17px;
+    color: #fff;
+    /* transition: background-color 0.3s ease-in; */
+}
+button:hover{
+    background-color: #0056b3;
+}
+#result
+{
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 17px;
+}
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100%
+    {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
+.fadeIn{
+    animation: fadeIn 0.5s ease-in-out;
+}
